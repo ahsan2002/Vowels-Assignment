@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 5px;
+    border-radius:5px ;
+}
+
+.btn:hover{
+    background-color: rgb(204, 200, 200);
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#vowels{
+    border: 4px solid grey;
+    display: inline-block;
+    height: 80px;
+    padding: 15px 15px;
+}
+#consonants{
+    border: 4px solid rgb(80, 80, 80);
+    display: inline-block;
+    height: 80px;
+    padding: 15px 15px;
+}
